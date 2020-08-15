@@ -20,7 +20,6 @@ const SearchBar: FC<Props> = ({setLoading, setData}) => {
         const query = encodeURIComponent(`text:${phrase}${language !== '' ? ` AND language:${language}` : ''}`);
         const response = await axios.get('https://api.newsriver.io/v2/search?query=' + query + `&sortBy=discoverDate&sortOrder=DESC&limit=${limit}`, {headers: {"Authorization":"sBBqsGXiYgF0Db5OV5tAwwyYX8KnkwMIezfShlQgJwzZS3XfgjmAuTQvQkMci4Xmn2pHZrSf1gT2PUujH1YaQA"}})
         if(response.status === 200){
-            console.log(response.data)
             setData([...response.data]);
         }
         else{
