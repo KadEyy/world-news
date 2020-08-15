@@ -1,0 +1,18 @@
+.searchbar{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;    
+    .bar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        > *{
+            margin: 10px !important;
+        }
+    }
+    .formControl{
+        min-width: 120px;
+    }
+    
+}

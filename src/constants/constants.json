@@ -1,0 +1,4 @@
+{
+    "API_DEV": "http://localhost:3000/",
+    "API_BULID": "http://your-bulid-api-adress" 
+}

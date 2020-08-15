@@ -1,0 +1,52 @@
+{
+  "name": "react-ts-template",
+  "version": "1.0.0",
+  "description": "My React Typescript template with configured webpack and features like css module loader",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KadEyy/react-ts-template.git"
+  },
+  "author": "KadEyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KadEyy/react-ts-template/issues"
+  },
+  "homepage": "https://github.com/KadEyy/react-ts-template#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router": "^5.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "axios": "^0.19.2",
+    "date-format": "^3.0.0",
+    "material-ui": "^0.20.2",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@teamsupercell/typings-for-css-modules-loader": "^2.2.0",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0"
+  }
+}
